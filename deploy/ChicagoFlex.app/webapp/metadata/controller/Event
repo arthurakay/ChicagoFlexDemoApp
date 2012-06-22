@@ -1,0 +1,50 @@
+{
+    "id": "ExtBox1-ext-gen6778",
+    "type": "controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Event"
+    },
+    "customConfigs": [],
+    "designerId": "fa077241-c770-49a5-b32c-64955817d4a8",
+    "$viewOrder": 0,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen11236",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onMylistItemTap",
+                "implHandler": [
+                    "var eventId = record.get('id');",
+                    "//console.log(eventId);",
+                    "",
+                    "var rsvpList = Ext.create('ChicagoFlex.view.Members', { itemId : 'Members' });",
+                    "",
+                    "var navView = dataview.up('navigationview');",
+                    "",
+                    "navView.push(rsvpList);",
+                    "",
+                    "var store = rsvpList.getStore();",
+                    "store.getProxy().setExtraParam('id', eventId);",
+                    "store.load();"
+                ],
+                "name": "itemtap",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "navigationview #EventList",
+                "designer|userClassName": "onMylistItemTap"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

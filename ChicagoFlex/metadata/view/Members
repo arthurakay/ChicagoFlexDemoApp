@@ -1,0 +1,18 @@
+{
+    "id": "ExtBox1-ext-gen2660",
+    "type": "list",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "itemTpl": "<div>Member ID: {id}</div>",
+        "store": "MembersStore",
+        "designer|userClassName": "Members"
+    },
+    "customConfigs": [],
+    "designerId": "af8ec476-453a-47dd-99cc-4c950d39f6f4",
+    "$viewOrder": 1,
+    "expanded": true
+}

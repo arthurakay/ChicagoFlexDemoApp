@@ -1,0 +1,36 @@
+{
+    "id": "ExtBox1-ext-gen5087",
+    "type": "navigationview",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userClassName": "MyNavigationView"
+    },
+    "customConfigs": [],
+    "designerId": "40443abb-94a5-4942-b812-4d43c9fb8a79",
+    "$viewOrder": 0,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen5264",
+            "type": "list",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "EventList",
+                "itemTpl": "<div> {date:date(\"D m/d/Y\")} - {name}</div>",
+                "store": "EventStore",
+                "designer|userClassName": "MyList"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

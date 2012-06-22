@@ -1,0 +1,16 @@
+{
+    "applicationName": "ChicagoFlex",
+    "applicationId": "com.chicagoflex",
+    "bundleSeedId": "123",
+    "versionString": "1",
+    "iconName": "",
+    "inputPath": "./",
+    "outputPath": "../deploy",
+    "configuration": "Release",
+    "platform": "iOSSimulator",
+    "deviceType": "iPhone",
+    "certificatePath": "",
+    "certificateAlias": "",
+    "sdkPath": "/Applications/SenchaSDKTools-2.0.0-beta3",
+    "androidAPILevel": ""
+}

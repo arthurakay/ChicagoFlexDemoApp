@@ -1,0 +1,55 @@
+{
+    "id": "ExtBox1-ext-gen5816",
+    "type": "jsonpstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "model": "Event",
+        "storeId": "EventStore",
+        "designer|userClassName": "Events"
+    },
+    "customConfigs": [],
+    "designerId": "5e98d591-bb23-4a53-b4cf-e46d7db5f172",
+    "$viewOrder": 0,
+    "expanded": false,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen5823",
+            "type": "jsonpproxy",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "enablePagingParams": false,
+                "url": "http://developer.eventbrite.com/json/organizer_list_events?app_key=ZJAGJQ3M3QZ65VOSVY&id=54373972",
+                "autoAppendParams": false,
+                "designer|userClassName": "MyJsonPProxy"
+            },
+            "customConfigs": [],
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen5830",
+                    "type": "jsonreader",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "rootProperty": "contents.events",
+                        "designer|userClassName": "MyJsonReader"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
+        }
+    ]
+}
