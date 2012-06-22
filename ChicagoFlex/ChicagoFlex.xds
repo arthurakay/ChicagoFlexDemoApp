@@ -5,7 +5,7 @@
         "spacesToIndent": 4,
         "codeGenFormat": "Class",
         "exportPath": "/Users/arthurakay/www/chicagoflex/deploy",
-        "extPath": "../sencha-touch-2.0.1/",
+        "extPath": "sencha-touch-2.0.1/",
         "senchaIoKey": "",
         "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
         "lineEnding": "LF",
