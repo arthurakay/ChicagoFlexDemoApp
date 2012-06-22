@@ -26,7 +26,7 @@ Ext.define('ChicagoFlex.store.Members', {
         proxy: {
             type: 'jsonp',
             enablePagingParams: false,
-            url: 'http://developer.eventbrite.com/json/event_list_attendees?app_key=ZJAGJQ3M3QZ65VOSVY&access_token=3GCN5K43TAFZKN6EGO6P',
+            url: 'http://developer.eventbrite.com/json/event_list_attendees?app_key=ZJAGJQ3M3QZ65VOSVY',
             autoAppendParams: false,
             reader: {
                 type: 'json',
