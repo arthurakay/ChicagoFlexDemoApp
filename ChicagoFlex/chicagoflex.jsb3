@@ -1,0 +1,71 @@
+{
+    "projectName": "Project Name",
+    "licenseText": "Copyright(c) 2012 Company Name",
+    "builds": [
+        {
+            "name": "All Classes",
+            "target": "all-classes.js",
+            "options": {
+                "debug": true
+            },
+            "files": [
+                {
+                    "clsName": "ChicagoFlex.MeetupApi",
+                    "name": "MeetupApi.js",
+                    "path": "app/"
+                },
+                {
+                    "clsName": "ChicagoFlex.model.Event",
+                    "name": "Event.js",
+                    "path": "app/model/"
+                },
+                {
+                    "clsName": "ChicagoFlex.model.Member",
+                    "name": "Member.js",
+                    "path": "app/model/"
+                },
+                {
+                    "clsName": "ChicagoFlex.view.MyNavigationView",
+                    "name": "MyNavigationView.js",
+                    "path": "app/view/"
+                },
+                {
+                    "clsName": "ChicagoFlex.controller.Event",
+                    "name": "Event.js",
+                    "path": "app/controller/"
+                },
+                {
+                    "clsName": "ChicagoFlex.view.Members",
+                    "name": "Members.js",
+                    "path": "app/view/"
+                },
+                {
+                    "clsName": "ChicagoFlex.store.Events",
+                    "name": "Events.js",
+                    "path": "app/store/"
+                },
+                {
+                    "clsName": "ChicagoFlex.store.Members",
+                    "name": "Members.js",
+                    "path": "app/store/"
+                }
+            ]
+        },
+        {
+            "name": "Application - Production",
+            "target": "app-all.js",
+            "compress": true,
+            "files": [
+                {
+                    "path": "",
+                    "name": "all-classes.js"
+                },
+                {
+                    "path": "",
+                    "name": "app.js"
+                }
+            ]
+        }
+    ],
+    "resources": []
+}
